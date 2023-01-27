@@ -3,6 +3,8 @@
 // }
 // sum(2, 10);
 
+const { join } = require("path");
+
 // function sum() {
 //     for (let i=0; i < arguments.length; i++) {
 //         console.log
@@ -132,6 +134,99 @@
 // }
 
 // console.log(returnTotalAmount(salaries));
+
+// урокслед
+
+const arr = [
+    'Minsk',
+    'Moscow',
+    'Brest',
+    'Mogilev',
+    'Gomel'
+];
+
+// for(let i = 0; i < arr.length; i++) {
+//     console.log(arr[i])
+// }
+
+// const result = [];
+// for(let i = 0; i < arr.length; i++) {
+//     result.push(arr[i] + ' smt')
+// }
+
+// console.log(result)
+
+
+// const newarr = ['a', 'b', 'c'];
+// const join = ( newarr , separator) => {
+//     const res = '';
+//     for(let i = 0; i < join.length; i++) {
+//         let elem = newarr[i];
+//         res =+ elem +
+//     }
+// }
+
+// const join = (arr, separator) => {
+//     let res = '';
+//     for(let i = 0; i< arr.lenght; i++) {
+//         const elem = arr[i];
+//         res += elem + separator;
+//     }
+//     return res;
+// };
+
+// const array1 = [1, 2, 3];
+
+// const reversed = array1.reverse();
+// console.log(reversed);
+
+// const reverse = (arr) => {
+//     const result = [];
+//     for (let i = 0; i< arr.lenght; i++) {
+//         result.push(arr[arr.lenght - 1 - i]);
+//     }
+//     return result;
+// }
+// console.log(reverse([1, 2, 3]));
+
+
+// const find = (arr, callback) => {
+//     for(let i = 0; i < arr,length; i++) {
+//         callback(arr[i]);
+//         if(callback(arr[i])) {
+//             return arr[i];
+//         }
+//     }
+// };
+
+let users = [
+    {name: "User1", age: 18, id: 1 },
+    {name: "User2", age: 20, id: 2 },
+    {name: "User3", age: 30, id: 3 },
+]
+
+const find = (arr, callback) => {
+    for(let i = 0; i < arr.lenght; i++) {
+        callback(arr[i]);
+        if (callback (arr[i])) {
+            return arr[i]
+        }
+    }
+};
+
+const user = users.find(item => {
+    return item.name === "User1"
+})
+console.log(user)
+
+
+
+
+
+
+
+
+
 
 
 
