@@ -137,13 +137,13 @@ const { join } = require("path");
 
 // урокслед
 
-const arr = [
-    'Minsk',
-    'Moscow',
-    'Brest',
-    'Mogilev',
-    'Gomel'
-];
+// const arr = [
+//     'Minsk',
+//     'Moscow',
+//     'Brest',
+//     'Mogilev',
+//     'Gomel'
+// ];
 
 // for(let i = 0; i < arr.length; i++) {
 //     console.log(arr[i])
@@ -199,25 +199,28 @@ const arr = [
 //     }
 // };
 
-let users = [
-    {name: "User1", age: 18, id: 1 },
-    {name: "User2", age: 20, id: 2 },
-    {name: "User3", age: 30, id: 3 },
-]
+// let users = [
+//     {name: "User1", age: 18, id: 1 },
+//     {name: "User2", age: 20, id: 2 },
+//     {name: "User3", age: 30, id: 3 },
+// ]
 
-const find = (arr, callback) => {
-    for(let i = 0; i < arr.lenght; i++) {
-        callback(arr[i]);
-        if (callback (arr[i])) {
-            return arr[i]
-        }
-    }
-};
+// const find = (arr, callback) => {
+//     for(let i = 0; i < arr.lenght; i++) {
+//         callback(arr[i]);
+//         if (callback (arr[i])) {
+//             return arr[i]
+//         }
+//     }
+// };
 
-const user = users.find(item => {
-    return item.name === "User1"
-})
-console.log(user)
+// const user = users.find(item => {
+//     return item.name === "User1"
+// })
+// console.log(user)
+
+
+// lesson4
 
 
 
