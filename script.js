@@ -222,6 +222,70 @@ const { join } = require("path");
 
 // lesson4
 
+// const sum = (a, b) => {
+//     let x = a + b;
+//     return a + b;
+// }
+
+// const sum = (a,b) => a + b {
+
+// }
+
+// let sum = function(a, b) {
+//     return a + b;
+// };
+
+// function sum4(a ,b) {
+//     return a + b
+// }
+
+// const uniq = (arr) => {
+//     const result = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (!result.includes(arr[i])) {
+//           result.push(arr[i]);
+//         }
+//     }
+
+//     return result
+// }
+
+// console.log(uniq([1, 1, 2, 3]));
+
+// сверху праивльно!!!
+
+// let products = [
+//         {title: "Bag 1", rating: 1, price: $100, id: 1 },
+//         {title: "Bag2", rating: 2,price: $300, id: 2 },
+//         {title: "Bag3", rating: 3,price: $500, id: 3 },
+//     ]
+    
+//     const find = (arr, callback) => {
+//         for(let i = 0; i < arr.lenght; i++) {
+//             callback(arr[i]);
+//             if (callback (arr[i])) {
+//                 return arr[i]
+//             }
+//         }
+//     };
+
+//     const product = products.find(item => {
+//             return item.title === "Bag3"
+//         })
+//         console.log(product)
+
+//     const productPrice = products.filter(item => {
+//         return item.price <500 ;
+//     })
+
+//     const res = products.map(item => {
+//         return item.title
+//     })
+
+    
+
+
+
 
 
 
